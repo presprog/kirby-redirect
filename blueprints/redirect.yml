@@ -16,3 +16,6 @@ fields:
     label: Redirect to external URL
     type:  url
     help: Will be ignored, if 'Redirect to page' is set and valid
+  newtab:
+    label: Open redirect in new tab (external only)
+    type: toggle
