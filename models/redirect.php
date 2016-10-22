@@ -7,4 +7,7 @@ class RedirectPage extends Page {
     }
     return parent::url();
   }
+  public function isExternal() {
+      return $this->external()->isNotEmpty();
+  }
 }
